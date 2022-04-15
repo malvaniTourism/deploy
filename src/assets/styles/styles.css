@@ -1,0 +1,172 @@
+.my-inp {
+    border-color: transparent;
+    border-radius: 50px;
+    margin: 10px 0 10px 0;
+    height: 40px;
+    padding-left: 15px;
+    /* color: #FF0038; */
+}
+.my-btn {
+    border-color: transparent;
+    border-radius: 50px;
+    background-color: #FF0038;
+    color: #fff;
+    font-weight: bold;
+    height: 40px;
+    width: 100%;
+}
+.my-error {
+    z-index: 10;
+    position: absolute;
+    top: 10vh;
+    width: 70vw;
+    height: 50px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 50px;
+    box-shadow: 5px 2px 40px 10px red;
+    border-radius: 50px;
+    transition: 10s all ease;
+}
+.err-msg {
+    color: #F00;
+    transition: 10s all ease;
+}
+.textAlign {
+    text-align: center;
+}
+.whiteAlign {
+    text-align: center;
+    color: #fff;
+}
+.Row {
+    display: flex;
+    flex-direction: row;
+}
+.Col {
+    display: flex;
+    flex-direction: column;
+}
+.bold {
+    font-weight: bold;
+}
+.whiteBold {
+    color: #fff;
+    font-weight: bold;
+}
+.primText {
+    color: #FF0038;
+}
+.greyText {
+    color: #C4C4C4;
+}
+.xsmText {
+    font-size: 18px;
+}
+.smlText {
+    font-size: 24px;
+}
+.medText {
+    font-size: 36px;
+}
+.lgText {
+    font-size: 48px;
+}
+
+.detBtn {
+    background: #FF0038;
+    color: #fff;
+    border-width: 0;
+    font-weight: bold;
+    width: 80px;
+    height: 32px;
+}
+.knoBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FF0038;
+    color: #fff;
+    border-width: 0;
+    font-weight: bold;
+    width: 198px;
+    height: 62.86px;
+}
+.lgRadius {
+    border-radius: 33px;
+}
+.smRadius {
+    border-radius: 5px;
+}
+input:focus,textarea:focus {
+    outline: none;
+}
+a {
+    text-decoration: none;
+    color: #FF0038;
+}
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.log-cont {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fcb72f;
+    align-items: center;
+    justify-content: center;
+}
+.log-card {
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50vh;
+    /* width: 70vw; */
+    /* background-color: antiquewhite; */
+}
+.log-head {
+    color: #FF0038;
+}
+
+.reg-card {
+    align-items: center;
+    justify-content: space-evenly;
+    height: 70vh;
+    /* width: 70vw; */
+    /* background-color: antiquewhite; */
+}
+
+.offDiscCard {
+    width: 273px;
+    height: 322px;
+    background: #fff;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
+}
+.offDiscImg {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 273px;
+    height: 182px;
+}
+.locText {
+    font-size: 14px;
+    line-height: 17px;
+    margin-left: 10px;
+}
+.commonPic {
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.belowDiv {
+    border-top: 3px solid #FF0038;
+    padding: 20px 0px 0px 20px;
+}
+.tenPoints {
+    background: #FF0038;
+    width: 63px;
+    height: 29px;
+    line-height: 29px;
+    border-radius: 5px 0px 0px 5px;
+}
