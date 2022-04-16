@@ -8,16 +8,16 @@ const OffrsAndDicsnt = (props) => {
 
     return (
         <div className='offDiscCard'>
-            <div className='commonPic offDiscImg' style={{ background: `url(${props.data.picture})` }}>
-                <text className='tenPoints whiteAlign'>{props.data.ratings}</text>
+            <div className='commonPic offDiscImg' style={{ background: `url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8kgjlS4WvTIqyflqQfXRSnI2E52Bg7gOCvA&usqp=CAU)` }}>
+                <text className='tenPoints whiteAlign'>5.8</text>
             </div>
             <div className='belowDiv'>
                 <div>
                     <HiLocationMarker color="#FF0038" fontSize="15px" />
                     <text className='primText locText'>Malvan</text>
                 </div>
-                <div className='bold smText'>{props.data.name}</div>
-                <div style={{lineHeight:3}}>Starting from ₹ {props.data.start_price}</div>
+                <div className='bold smText'>Vasant Vijay</div>
+                <div style={{lineHeight:3}}>Starting from ₹ 250</div>
             </div>
         </div>
     )
